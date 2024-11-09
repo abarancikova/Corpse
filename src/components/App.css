@@ -1,0 +1,124 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff; /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+.sentence {
+    display: inline-block;
+    margin: 1%; /* Adjust the percentage value as needed */
+    margin-left: 0%;
+    color: #f0f0f4;
+    padding: 0.5%; /* Adjust the percentage value as needed */
+    border-radius: 5%;
+}
+
+.sentence_past {
+    display: inline-block;
+    margin: 1%; /* Adjust the percentage value as needed */
+    color: #000000;
+    background-color: #c5cfdb;
+    padding: 1%; /* Adjust the percentage value as needed */
+    border-radius: 5%;;
+}
+
+.content {
+    margin: 2%; /* Adjust the percentage value as needed */
+}
+
+h1 {
+    color: #F3E0E9;
+    text-transform: uppercase;
+    font-family: 'Neulis Neue Bold', sans-serif;
+    font-weight: bold;
+    font-size: 4vw;
+    margin: 1% 0;
+    padding: 1%;
+    border-radius: 5%;
+    margin-left: 500px;
+}
+
+h2 {
+    margin: 2% 0;
+    text-align: center;
+    color: #F3E0E9;
+    text-transform: uppercase;
+    font-family: 'Neulis Neue Bold', sans-serif;
+    font-weight: bold;
+    font-size: 3vw; /* Adjust the percentage value as needed */
+}
+
+h3 {
+    margin: 2% 0;
+    text-align: center;
+    color: #2a323d;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3vw; /* Adjust the percentage value as needed */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    word-wrap: normal;
+    word-break: normal;
+    white-space: normal;
+    overflow-wrap: anywhere;
+
+  }
+
+  
+
+th,
+td {
+    padding: 1%; /* Adjust the percentage value as needed */
+    text-align: left;
+    border-bottom: 1px solid #f0f0f4;
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #6343B3;
+    color: #f0f0f4;
+    padding: 2%; /* Adjust the percentage value as needed */
+    text-align: center;
+}
+
+.all_encomp {
+    min-height: 100vh;
+    background-size: 100%;
+    /*background: linear-gradient(to bottom right, #2a323d, #6343B3);*/
+    
+}
+
+.past_stories {
+    background-color: #c5cfdb;
+    padding-top: 2%;
+    border-radius: 10px;
+}
+
+.loading-text {
+    font-size: 5vw; /* Adjust the percentage value as needed */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-divider {
+    border: none;
+    border-top: 1px solid #F3E0E9;
+    margin: 2% 0;
+}
+
+.custom-link {
+    color: rgb(255, 255, 255); 
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+.custom-link:hover {
+    color: #F3E0E9;
+}
+
